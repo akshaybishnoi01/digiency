@@ -1,0 +1,97 @@
+:root {
+    --fs-xsm-: 10.24px;
+    --fs-sm-: 12.8px;
+    --fs-xmd-: 16px;
+    --fs-md-: 20px;
+    --fs-xlg-: 25px;
+    --fs-lg-: 39.063px;
+    --fs-xl-: 48.83px;
+    --fs-xxl-: 64px;
+    --color-emphasis-: #FF5300;
+    --color-secondary-: #373737;
+    --color-tertiary-: #7B7B7B;
+    --color-white-: #FFF;
+    --color-lightwh-: #EFEFEF;
+    --color-org-: rgba(255, 83, 0, 0.75);
+    --color-bgsecondary-: #FFF7F4;
+}
+
+.fs-10 {
+    font-size: var(--fs-xsm-);
+}
+
+.fs-12 {
+    font-size: var(--fs-sm-);
+}
+
+.fs-16 {
+    font-size: var(--fs-xmd-);
+}
+
+.fs-20 {
+    font-size: var(--fs-md-);
+}
+
+.fs-25 {
+    font-size: var(--fs-xlg-);
+}
+
+.fs-39 {
+    font-size: var(--fs-lg-);
+}
+
+.fs-48 {
+    font-size: var(--fs-xl-);
+}
+
+.fs-64 {
+    font-size: var(--fs-xxl-);
+}
+
+
+
+.color_emphasis {
+    color: var(--color-emphasis-);
+}
+
+.color_secondary {
+    color: var(--color-secondary-);
+}
+
+.color_tertiary {
+    color: var(--color-tertiary-);
+}
+
+.color_white {
+    color: var(--color-white-);
+}
+
+.color_lightwh {
+    color: var(--color-lightwh-);
+}
+
+.color-bg {
+    color: var(--color-bgsecondary-);
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-xlg-: 23px;
+        --fs-lg-: 35px;
+        --fs-xl-: 46px;
+        --fs-xxl-: 60px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-xsm-: 9px;
+        --fs-sm-: 11px;
+        --fs-xmd-: 14px;
+        --fs-md-: 17px;
+        --fs-xlg-: 20px;
+        --fs-lg-: 32px;
+        --fs-xl-: 42px;
+        --fs-xxl-: 48px;
+    }
+}
